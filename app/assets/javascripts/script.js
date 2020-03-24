@@ -13,3 +13,6 @@ if (num % 15 == 0) {
 } else {
   console.log(num + 'は3の倍数でも、5の倍数でもありません');
 }
+
+let list = ['test','test2','test3']
+console.log(list);
