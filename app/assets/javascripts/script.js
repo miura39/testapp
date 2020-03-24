@@ -15,5 +15,6 @@ if (num % 15 == 0) {
 }
 
 let list = ['test','test2','test3']
+list.push('追加が出来ます');
 console.log(list);
 console.log(list[2]);
