@@ -16,3 +16,4 @@ if (num % 15 == 0) {
 
 let list = ['test','test2','test3']
 console.log(list);
+console.log(list[2]);
