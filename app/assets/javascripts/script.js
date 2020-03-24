@@ -47,3 +47,23 @@ function sayName(name){
 let myName = 'yamada';
 sayHello();
 sayName(myName);
+
+// JavaScriptにおいてはreturnで戻り値を明示する必要がある
+function calc(num1,num2){
+  return num1*num2;
+}
+
+let num1 = 3;
+let num2 = 4;
+console.log(calc(num1,num2));
+
+// 無名関数を定義する方法
+// 関数宣言
+function hello(){
+  console.log('hello');
+}
+
+// 関数式（無名関数）
+let hello = function(){
+    console.log('hello');
+}
