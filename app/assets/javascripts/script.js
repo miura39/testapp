@@ -22,3 +22,28 @@ list.pop();
 list.shift();
 console.log(list);
 console.log(list[2]);
+// オブジェクト
+let obj = { name: 'yamada', age: 25, address: 'tokyo' };
+console.log(obj);
+// 繰り返し処理
+num = 1;
+for (let i = 0; i < 10; i += 1) {
+  console.log(num + '回目の出力')
+  num +=  1
+}
+
+// -------関数の定義方法
+// function 関数名(引数) {
+//    処理の内容
+// }
+// -------------------
+function sayHello(){
+  console.log('hello');
+}
+function sayName(name){
+  console.log(name);
+}
+// helloとyamadaが出力される
+let myName = 'yamada';
+sayHello();
+sayName(myName);
