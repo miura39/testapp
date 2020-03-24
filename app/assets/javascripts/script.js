@@ -59,11 +59,14 @@ console.log(calc(num1,num2));
 
 // 無名関数を定義する方法
 // 関数宣言
-function hello(){
-  console.log('hello');
+function hello1(){
+  console.log('hello1');
 }
+hello1();
 
 // 関数式（無名関数）
 let hello = function(){
-    console.log('hello');
+  console.log('hello');
 }
+
+hello();
